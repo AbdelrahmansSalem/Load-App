@@ -25,8 +25,8 @@ fun NotificationManager.sendNotification(text:String,applicationContext: Context
         .setContentTitle(applicationContext.getText(R.string.Notification_Title))
         .setSmallIcon(R.drawable.download_icon)
         .setContentText(text)
+        .addAction(R.drawable.download_icon,applicationContext.getText(R.string.showDetails),pendingIntent)
         .setAutoCancel(true)
-        .setContentIntent(pendingIntent)
 
     notify(NOTIFICATIONID,builder.build())
 }

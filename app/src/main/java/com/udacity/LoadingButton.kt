@@ -99,7 +99,6 @@ class LoadingButton @JvmOverloads constructor(
     @SuppressLint("ResourceAsColor")
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
-        paint.strokeWidth = 0f
         paint.color = buttonColor
         canvas.drawRect(0f, 0f, width.toFloat(), height.toFloat(), paint)
 

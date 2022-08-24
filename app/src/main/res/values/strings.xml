@@ -23,4 +23,5 @@
 
     <string name="loading">LOADING</string>
     <string name="download">DOWNLOAD</string>
+    <string name="showDetails">Show Details</string>
 </resources>
